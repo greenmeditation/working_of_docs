@@ -57,6 +57,12 @@ integrand = f_z / (z - z0)
 # SymPy는 특이점 주변의 적분 개념보다는 유수 정리에 더 가깝게 동작합니다.
 
 ```
+
+
+<img width="652" height="150" alt="image" src="https://github.com/user-attachments/assets/282ac2a8-8bc3-4b9e-a680-cefa4567693c" />
+
+
+
 ```py
 import numpy as np
 from scipy.integrate import quad
