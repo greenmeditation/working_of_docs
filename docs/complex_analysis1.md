@@ -41,3 +41,19 @@ SciPy	특수 함수	scipy.special.gamma(z) 등
 
 
 ```
+
+```py
+from sympy import symbols, integrate, pi, I
+
+# 변수 및 함수 정의
+z, z0 = symbols('z z0')
+f_z = z**2 # 예시 함수 f(z) = z^2 (전 해석 함수)
+
+# 코시 공식의 피적분 함수
+integrand = f_z / (z - z0)
+
+# SymPy는 기본적으로 경로를 지정하기보다 일반적인 적분 함수를 제공합니다.
+# 경로 적분을 직접 심볼릭하게 계산하는 것은 복잡하며, 보통 수치적으로 접근합니다.
+# SymPy는 특이점 주변의 적분 개념보다는 유수 정리에 더 가깝게 동작합니다.
+
+```
