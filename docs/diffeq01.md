@@ -2,7 +2,7 @@
 # Diffeq notebook
 
 ```math
-y^{/prime}=y
+y^{\prime}=y
 ```
 
 ```math
