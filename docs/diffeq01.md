@@ -17,3 +17,7 @@ a_{n+2}=\frac{-(n-l)(n+l+1)}{(n+1)(n+2)}a_n=\frac{(l+n)(n+l+1)}{(n+1)(n+2)}a_n
 ```
 
 if l=0
+
+if l=1
+
+if l=2
