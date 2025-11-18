@@ -3,5 +3,5 @@
 
 
 ```math
-sum
+\sum
 ```
